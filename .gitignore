@@ -8,3 +8,5 @@ dist/
 .env.*.local
 *.log
 .DS_Store
+# Vercel local state (contains project tokens)
+.vercel/
