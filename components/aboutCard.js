@@ -43,7 +43,7 @@ const AboutCard = () => {
         fontSize="0.72em"
         margin="1em"
       >
-        Hi there! I'm Walter, a versatile designer passionate about visually
+        Hi there! I&apos;m Walter, a versatile designer passionate about visually
         narrating stories. My expertise lies in crafting responsive websites and
         intuitive user interfaces.
       </Text>
