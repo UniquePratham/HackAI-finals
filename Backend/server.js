@@ -5,7 +5,7 @@ const app = express();
 
 const connectDatabase = async () => {
   try {
-    const link = "mongodb+srv://abcd123:amivatkhabo@cluster0.mklwd8h.mongodb.net/HACKAI";
+    const link = process.env.MONGODB_URI;
     await mongoose.connect(link);
     console.log(`MongoDB connected with server: HackAI`);
   } catch (error) {
