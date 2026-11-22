@@ -7,7 +7,7 @@ const connectDatabase = async () => {
   try {
     const link = process.env.MONGODB_URI;
     await mongoose.connect(link);
-    console.log(`MongoDB connected with server: HackAI`);
+    console.log(`MongoDB connected with server: ChatMate`);
   } catch (error) {
     console.error("Error connecting to MongoDB:", error.message);
   }
